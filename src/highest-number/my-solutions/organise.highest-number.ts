@@ -9,7 +9,7 @@ function returnHighestNumber(a: number, b: number) {
 let inputValues: number[] = []
 let highestNumber: number = 0
 let highestNumberOG: number = 0
-let max = 100
+export let max = 100
 let min = 50
 for (let i = 0; i <= Math.floor(Math.random() * (max - min + 1)) + min; i++) {
   inputValues.push(Math.floor(Math.random() * (max - min + 1)) + min)

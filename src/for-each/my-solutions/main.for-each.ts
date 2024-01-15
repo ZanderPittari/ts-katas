@@ -1,5 +1,3 @@
-import { forEach } from '../solutions/for-each'
-import { alterNumbers } from './function.for-each'
 let arrayNumber: number[] = []
 let max = 100
 let min = 50

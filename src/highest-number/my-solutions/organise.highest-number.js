@@ -1,3 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.max = void 0;
 function returnHighestNumber(a, b) {
     if (a < b) {
         return 0; // returns 0 if b is larger than a
@@ -9,10 +12,10 @@ function returnHighestNumber(a, b) {
 var inputValues = [];
 var highestNumber = 0;
 var highestNumberOG = 0;
-var max = 100;
+exports.max = 100;
 var min = 50;
-for (var i = 0; i <= Math.floor(Math.random() * (max - min + 1)) + min; i++) {
-    inputValues.push(Math.floor(Math.random() * (max - min + 1)) + min);
+for (var i = 0; i <= Math.floor(Math.random() * (exports.max - min + 1)) + min; i++) {
+    inputValues.push(Math.floor(Math.random() * (exports.max - min + 1)) + min);
 }
 for (var i = 0; i <= inputValues.length; i++) {
     var returnedValue = returnHighestNumber(highestNumber, inputValues[i]);

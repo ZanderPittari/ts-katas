@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var arrayNumber = [];
 var max = 100;
 var min = 50;
